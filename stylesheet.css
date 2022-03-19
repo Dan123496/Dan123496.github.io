@@ -104,14 +104,14 @@ aside.aboutSu {
 picture.aboutAs {
 	
 	float: right; /*floats the picture of me to the right so it can be inline horizonal on the right side of my About me table and welcome section*/
-    padding-top: 50px; /*padding to keep the picture in line horizontally with the other elements on that line*/
+    padding-top: 8px; /*padding to keep the picture in line horizontally with the other elements on that line*/
     padding-bottom: 40px;
     margin-bottom: 20px;
     
 }
 picture.aboutAs img {
 	 /*image is rotate 90deg as for some reason it imported landscape*/
-	width: 300px; 
+	width: 240px; 
 	height:225px;
     /*sets the width and height of the image*/
 	border-radius: 90%;
@@ -236,6 +236,7 @@ footer {
 	bottom: 0; 
 	/* these two commands fixed the footer to the bottom of the screen, even when scrolling, so the viewer can always see the footer not matter where on the pag they are */
     width: 100%;
+    height: 5%;
     /*sets the width of the footer to the width of the screen/window*/
 	background-color:#3C3C3C;
 	border: 2px;
@@ -253,7 +254,7 @@ footer p {
 	position: absolute;
 	bottom: 22px;
 	right: 15px;
-    /*sets the "created by Daniel Standring 2018 " 22px up from the bottom of the page and 15px to the right, so it stays near the bottom right of the page on the footer*/
+    /*sets the "created by Daniel Standring  " 22px up from the bottom of the page and 15px to the right, so it stays near the bottom right of the page on the footer*/
 }
 
 
