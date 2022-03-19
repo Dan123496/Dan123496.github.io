@@ -60,7 +60,7 @@ nav ul li a {
     font-size: 0.9em;
 	background-color: #3C3C3C;
 	float: left; /* nav bar items are floated left so they appear inline horizontally*/
-	display: inline-block; /*displays nav attributes as a block so they appear as the size of their cell and not just the size of the text*/
+	/*display: inline-block; /*displays nav attributes as a block so they appear as the size of their cell and not just the size of the text*/
     padding: 15px 15px; /*padding to make the box contacting each nav list attribute bigger*/
 }
 nav ul li a.CurrentPage {
