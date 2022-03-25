@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!--formats the page as HTML-->
+
+<html dir="LTR" lang="en-GB"> <!--sets the html document to be read from left to right and sets the language to be British English-->
+
+    <head> 
+        <meta charset="utf-8"> <!--Sets character encoding to “utf-8” to make sure characters are rendered properly-->
+        <meta name="Description" content="Information on Computer Science Fundamentals"> <!-- gives my web page a disruption-->
+        <meta name="author" content="Daniel Standring"> <!--defines me as the other of the page-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets view point to scale of 1 and sets the width to the width of the device, is need for my website and media queries to fuction propperly  -->
+        <title>Computer Scenince Fundamentals</title> <!--title tag sets the title in the browser tab to "Computer Scenince Fundamentals" -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--Links to my external stylesheet-->
+        <script src="imageEnlarge.js"> </script>
+    </head>
+	
+    <body>
+        <header>
+            <h1>Daniel Standring's Portfolio</h1>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="CurrentPage" href="SkillsCityProjects-Unity.html">SkillsCity BootCamp - Unity </a></li>
+                <li><a href="PokemonGame-Unity.html">PokemonGame - Unity</a></li>
+                <li><a href="JavaGameProjects.html">Java Game Projects</a></li>
+                <li><a  href="OtherUnivertyProjects.html">Other Univerty Projects</a></li>
+                <li><a href="LearningC++.html">Learning C++</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section>
+            <h3>Computer Science Fundamentals</h3>
+        </section>
+        <main>
+            <picture>
+                <img onclick="imageEnlarge(this)"  src="CoffeeReviewApp.png" alt= "image of the logic gate symbols">
+                <p>Logic gate symbols</p>
+            </picture>
+            <article>
+                <p>For the Computer Systems Fundamentals unit, I was introduced to the fundamental principles and mathematics underpinning the design and construction of Computer Systems. We have covered digital logic and Boolean algebra, this was in the form of logic gates, circlets, truth tables Karnaugh maps and more. We have learnt the base components of a CPU and how they work such as the fetch execute cycle. We have learnt different base systems such as binary, hexadecimal and octal. We learnt how to use the Logisim program to apply what we have learnt in this unit, allowing us to build and analyse circuits.if you would like to download and use Logisim, you can do so from their website, you can click this link to go to it now: : &nbsp &nbsp <a href="http://www.cburch.com/logisim/download.html">Logisim</a> <br> We have also been learning various areas of mathematics alongside this, these include: Sets, Matrices and Vectors.
+                </p>
+            </article>
+        </main>
+        <main>
+            <picture>
+                <img onclick="imageEnlarge(this)"  src="ProjectMonitoringAppScreenShots.png" alt="image of the logisim website">
+                <p>website to download Logisim</p>
+            </picture>
+            <article>
+                <p>I feel like I have done well in this unit, but I need to improve, while I feel confident with the mathematical side of this unit, having done As Maths, completing all the work in seminars and having a good understand of the subject, I do not feel as confident with the other side. I am struggling with some of the digital logical concepts and am very lost on the operations of a CPU. I believe this is the subject I need to devote more of my time to and attend some drop-in sessions to help improve my understanding. I think I have applied myself well, turning up to every lecture and completing lab work, but as I said, I still need to devote more of my time.  
+                </p>
+            </article>
+        </main>
+        <footer> 
+            
+            <p>Created By Daniel Standring   2022</p>
+        </footer>
+    </body>
+</html>

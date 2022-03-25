@@ -117,8 +117,8 @@ picture.aboutAs {
 }
 picture.aboutAs img {
 	 /*image is rotate 90deg as for some reason it imported landscape*/
-	width: 240px; 
-	height:225px;
+	width: 200px; 
+	height:256px;
     /*sets the width and height of the image*/
 	border-radius: 90%;
     
@@ -132,6 +132,8 @@ picture {
 picture p{
     width: 450px;
     word-wrap: normal;
+    padding-bottom:10px;
+    
 }
 picture img{
     width: 450px; 
