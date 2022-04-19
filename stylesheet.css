@@ -169,6 +169,46 @@ section.aboutSe p {
     padding-right: 4px;
     text-align: center;
 }
+section.flex-contaner {
+	
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+section.flex-contaner > div{
+	
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    background-color: rgb(241, 236, 241); 
+    border-radius: 20px;
+    width: 580px;
+}
+
+section.flex-contaner p{
+    text-align: center;
+    margin: 10px;
+    
+}
+picture.flex-pic {
+    
+    margin: 0px;
+    
+}
+picture.flex-pic img{
+    width: 580px;
+    height: 300px;
+    margin: 0px;
+    
+}
+section.buffer{
+    margin-bottom: 5px;
+}
+
+
     
     /*padding so my image captions don't go of the screen*/
 
