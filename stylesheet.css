@@ -38,6 +38,12 @@ h4.left  {
     padding-top: 20px;
     padding-left: 20px;  /*adds padding at the top of my h4 header to leave space between the main text on the about me page and this header*/
 	text-align: left;
+
+}
+h5.left  {
+
+    padding-left: 20px; 
+    text-align: left;
 }
 header {
     position: fixed; 
