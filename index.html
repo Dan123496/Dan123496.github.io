@@ -2,7 +2,16 @@
 
 <html dir="LTR" lang="en-GB"> <!--sets the html document to be read from left to right and sets the language to be British English-->
 
-<head> 
+<head>
+	<!-- Google tag (gtag.js)-->
+	<script async scr=" "https://www.googletagmanager.com/gtag/js?id=G-LC2RRHNK0G"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-LC2RRHNK0G');
+	</script>
 	<meta charset="utf-8"> <!--Sets character encoding to “utf-8” to make sure characters are rendered properly-->
 	<meta name="Description" content="Home Page, Info and links"> <!-- gives my web page a disruption-->
     <meta name="author" content="Daniel Standring"> <!--defines me as the other of the page-->
@@ -16,7 +25,15 @@
 	
 <body>	
 	<header> <!--creates a box to put my title header and nav bar in, allows them to but fix to the top of the page together in my css-->
-        <h1>Daniel Standring's Portfolio</h1> <!--h1 defines the main header of the page-->
+		<div class ="Title">
+			
+			<h1>Daniel Standring's Portfolio</h1> <!--h1 defines the main header of the page-->
+			<div class-="UnityBox">
+				<div class="UnityCredit"  data-iframe-width="65" data-iframe-height="85" data-share-badge-id="d8f85057-1b5c-4892-9d3f-6f3af1017d39" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+			</div>
+		</div>
+		
+		
         <nav> <!-- puts my nav list in a nav box--> 
 		   <ul> <!--creates my list for the nav bar without ordering-->
     <!-- each one of these 5 attributes are items in my list navbar, they all have "href"'s to link to my other HTML pages and text to for the link to display as-->
@@ -28,9 +45,10 @@
 			
 		   </ul>
 	   </nav>
-    </header>
+	  </header>
+	
     <picture class="aboutAs"> <!-- this piture tag s use to put a box around my image to help with layng out my webpage-->
-			<img src="PhotoOfMe.png" alt="Photo of Daniel Standring"> <!-- finds the image"PhotoOfMe.jpg" and gives it an alt for screen readers and if the image cant be displayed--> 
+			<img src="PhotoOfMe.png" alt="Photo of Daniel Standring" > <!-- finds the image"PhotoOfMe.jpg" and gives it an alt for screen readers and if the image cant be displayed--> 
 
     </picture>
     
@@ -65,8 +83,9 @@
     </aside>
 	<section class="aboutSe">
 		<h3>Programmer</h3>   <!--h3 set a level 3 heading-->
-            <p> Hello and welcome to my portfolio site. I am Daniel Standring, a games and software programer. Here you will find projects I have completed or am currently working on, Including projects from my Games Devlopment BootCamp
-				 at Skills City, My Computer Science Degree at Manchester Metropliton University, And my own persoonal Projects. </p>
+            <p> Hello and welcome to my portfolio site. I am Daniel Standring, a games and software programmer and a computer science graduate with 
+				first class honours. Here you will find projects I have completed or am currently working on, Including projects from my Games Development 
+				Boot Camp. I’m skilled with C# and Unity and am a Unity Certified associate programmer and am currently learning Unreal Engine. </p>
             
 	</section>
 	<section class="flex-contaner">
@@ -105,8 +124,8 @@
 			<p><a href="SkillsCityProjects-Unity.html#capstone">Learn More</a></p>
 		</div>
 		<div>
-			<picture class="flex-pic"> 
-				<img src="javaGame.PNG" alt="Image of level on from my learn java game">.
+			<picture class="flex-pic" > 
+				<img  src="javaGame.PNG" alt="Image of level on from my learn java game" >.
 			</picture>
 			<p>Java Educational game Create for a project as Part of my computer science degree</p>
 			<p><a href="JavaGameProjects.html">Learn More and Download the game</a></p>

@@ -9,6 +9,14 @@ body {
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /*sets all font in the body to Arial, for easy of reading */
     background-color: floralwhite; /*sets the background colour of the website*/
 }
+div.Title h1{
+    float: left;
+}
+div.UnityBox{
+  padding-top: 2px;
+  float: right;
+  right: 0px;
+}
     
 h1, h2, h3, h4{
     font-family: "Times New Roman", Times, serif; /* sets all headers to have times new roman as their font, to ad style. */
@@ -127,6 +135,8 @@ picture.aboutAs img {
 	height:256px;
     /*sets the width and height of the image*/
 	border-radius: 90%;
+    /*transform:rotate(90deg);*/
+    
     
 }
 
