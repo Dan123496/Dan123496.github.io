@@ -20,6 +20,8 @@ div.UnityBox{
   margin-top: -20px;
   float: right;
   right: 0px;
+  overflow: hidden; 
+  box-sizing: border-box;
   
 }
 div.UnityCredit{
