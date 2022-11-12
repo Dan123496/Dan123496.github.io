@@ -18,7 +18,7 @@
             <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="CurrentPage" href="SkillsCityProjects-Unity.html">SkillsCity BootCamp - Unity </a></li>
+                <li><a class="CurrentPage" href="SkillsCityProjects-Unity.html">Skills City BootCamp - Unity </a></li>
                 <li><a href="PokemonGame-Unity.html">PokemonGame - Unity</a></li>
                 <li><a href="JavaGameProjects.html">Java Game Projects</a></li>
                 <li><a  href="OtherUnivertyProjects.html">Other Univerty Projects</a></li>
