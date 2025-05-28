@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html dir="LTR" lang="en-GB">
+
+	<head>
+		<title>Daniel Standring's Portfolio</title> <!--title tag sets the title in the browser tab to "Daniel Standring's Portfolio" -->
+		<meta name="author" content="Daniel Standring"> <!--defines me as the other of the page-->
+		<meta name="Description" content="Huey Games"> 
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" sizes="32x32" href="images/DSLogo.ico">
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LC2RRHNK0G"></script>
+		
+		<script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
+	
+	
+		gtag('config', 'G-LC2RRHNK0G');
+		</script>
+	</head>
+
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/PhotoOfMe.png" alt="" /></span>
+							<h1 id="title">Daniel Standring</h1>
+							<p>Programmer / Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html" id="Home-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="#Intro" id="Intro-link"><span class="icon solid fa-i">Intro</span></a></li>
+								<li><a href="#Cuisineer" id="Cuisineer-link"><span class="icon solid fa-c">Cuisineer</span></a></li>
+								<li><a href="#Plate_Up" id="Plate_Up-link"><span class="icon solid fa-p">Plate Up</span></a></li>
+								<li><a href="#HueyCore" id="HueyCore-link"><span class="icon solid fa-h">Huey Core</span></a></li>
+								<li><a href="#Wreckout" id="Wreckout-link"><span class="icon solid fa-w">Wreckout</span></a></li>
+							</ul>
+						</nav>
+
+						
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/daniel-standring-2b6028235/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://dannywtb.itch.io/" class="icon brands fa-itch-io"><span class="label">Itch.io</span></a></li>
+							<li><a href="mailto:.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="Intro" class="two">
+						<div class="container">
+							<header>
+								<img class ="image featured" src="images/HueyLogo.png" alt="Huey Games">
+							</header>
+
+							<p>
+								<br><br>
+								This page highlights my time at Huey Games, a small porting and co-devlopment games studio, where I worked as a programmer on a variety of exciting projects. During my time at the studio, I contributed to several game titles and development tools across multiple platforms. Below, you'll find an overview of some of the games and projects I was involved in, showcasing the skills I developed and the experience I gained working with the fantastic team there.</p>
+						</div>
+					</section>
+
+
+				<!-- Cuisineer -->
+					<section id="Cuisineer" class="three">
+						<div class="container">
+
+							<header>
+								<video controls poster="images/Cuisineer.jpg"><source src="video/Cuisineer.webm" type="video/webm"></video>
+								
+							</header>
+
+							<p>
+								<br><br>
+								I led the optimisation of Cuisineer for the Nintendo Switch as we as other porting task as part of the team on Plate Up!, transforming the original PC version into a stable and performant console experience. This involved extensive use of tools like Unity’s Profiler, the NVIDIA graphics debugger, and the Nintendo CPU profiler to identify and address performance bottlenecks.
+								<br>
+								To get the game running smoothly, we reduced texture sizes, simplified models and materials, and reworked systems like the minimap and particle effects for efficiency. I also optimised gameplay code—improving AI distance checks, switching from sphere casts to raycasts, and streamlining the pathfinding system. In addition to optimisation, we handled many typical porting tasks, including input setup, UI adjustments, saving/loading changes, and localisation.
+								<br>
+								I also developed custom optimisation tools that were later integrated into Huey’s internal porting framework, HueyCore, helping streamline future projects across the studio.
+
+								<!-- Long version
+									During my time at Huey Games, I led the optimisation of Cuisineer for the Nintendo Switch, transforming the original PC version into a stable, performant experience on lower-powered hardware. This was a technically challenging but rewarding process that gave me deep, hands-on experience with a variety of profiling and debugging tools. I worked extensively with Unity's Memory Manager and Profiler, as well as more advanced tools like the NVIDIA Nsight Graphics Debugger and the Nintendo CPU Profiler. These tools were essential in identifying performance bottlenecks and memory usage issues that needed to be addressed for the game to run smoothly on console.
+									To achieve a steady frame rate on the Switch, we implemented a wide range of optimisations. This included reducing texture resolutions, simplifying complex models, and splitting up large meshes that were always being rendered. In some cases, we replaced 3D models with sprites entirely to cut down on rendering costs. One major improvement came from simplifying the minimap system, which originally used three cameras updating every frame — we changed this to update one camera per frame in a loop. We also reworked many of the game’s materials and shaders, replacing lighting-heavy shaders with more efficient alternatives, especially for water and particle effects. Particles were culled to one-sided rendering with fewer instances, and we reduced unnecessary overdraw wherever possible.
+									On the programming side, we streamlined enemy AI calculations by caching distance checks instead of recalculating them each frame, and we swapped expensive sphere casts for more efficient raycasts. We also optimised the A* pathfinding system to better suit the performance constraints of the Switch. Alongside these game-specific improvements, I worked on typical platform porting tasks: adapting the game to each console SDK, configuring input and controller support, modifying save/load systems, adjusting UI layouts and control prompts, handling localisation, and ensuring overall compatibility with hardware requirements.
+									To support the optimisation process, I developed several custom tools to streamline profiling, visualise bottlenecks, and automate common adjustments. These tools proved so useful that they were later integrated into Huey's internal porting framework, HueyCore, to accelerate future porting projects. My work on Cuisineer not only improved the game’s performance on Switch but also contributed to long-term efficiency gains across the company’s porting pipeline.-->
+							</p>
+
+							</p> 
+								You can get Cuisineer now on consoles and PC at the links below:
+							</p>
+
+							<div class="row aln-center ">
+								<div class="col-2 off-1">
+									<a href="https://store.steampowered.com/app/1963570/Cuisineer/" class="image fit"><img src="images/Steam_icon_logo.png" alt="Steam" /></a>
+									
+								</div>
+								<div class="col-2 off-1">
+									<a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Cuisineer-2700386.html" class="image fit"><img src="images/Switch-Large.png" alt="Switch eShop" /></a>
+									
+								</div>
+								<div class="col-2 off-1">
+									<a href="https://store.playstation.com/en-gb/product/EP4492-PPSA20208_00-CUISINEER0000000" class="image fit"><img src="images/PlayStation-Large.png" alt="PlayStation Store" /></a>
+									
+								</div>
+								<div class="col-2 off-1">
+									<a href="https://www.xbox.com/en-us/games/store/cuisineer/9nf6jpn1bw9l" class="image fit"><img src="images/Xbox-Large.png" alt="Xbox Store" /></a>									
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				
+				<!-- Plate Up! -->
+				<section id="Plate_Up" class="four">
+					<div class="container">
+
+						<header>
+							<video class ="image featured" controls poster="images/PlateUp-1920-1080.jpg"><source src="video/PlateUpTrailer.webm" type="video/webm"></video>
+						</header>
+
+						<p>
+							<br>
+							While working on the porting team for PlateUp!, our primary focus was on adapting the game's netcode to use Photon Realtime to support online multiplayer across consoles. This involved integrating with the game's custom Entity Component System and ensuring full compliance with each platform’s online service requirements, including moderation of user-generated content such as restaurant names. We also implemented compressed save systems to meet strict save file size limitations on consoles.
+							Alongside the networking work, we also handled many of the core porting tasks required for multi-platform support—configuring controller input, adapting the UI for console layouts, managing localisation, and ensuring save/load systems functioned correctly on each platform. Finally we adjusted resolution and frame rate settings to deliver a consistent, playable experience on all target hardware.
+						</p>
+						</p> 
+							You can get Plate Up! now on consoles and PC at the links below:
+						</p>
+						<div class="row aln-center ">
+							<div class="col-2 off-1">
+								<a href="https://store.steampowered.com/app/1599600/PlateUp/" class="image fit"><img src="images/Steam_icon_logo.png" alt="Steam" /></a>
+								
+							</div>
+							<div class="col-2 off-1">
+								<a href="http://nintendo.com/en-gb/Games/Nintendo-Switch-games/PlateUp--2371489.html" class="image fit"><img src="images/Switch-Large.png" alt="Switch eShop" /></a>
+								
+							</div>
+							<div class="col-2 off-1">
+								<a href="https://store.playstation.com/en-gb/product/EP5816-PPSA14232_00-0445026940764684" class="image fit"><img src="images/PlayStation-Large.png" alt="PlayStation Store" /></a>
+								
+							</div>
+							<div class="col-2 off-1">
+								<a href="https://www.xbox.com/en-GB/games/store/plateup/9P2HHT3VS7MP/0010" class="image fit"><img src="images/Xbox-Large.png" alt="Xbox Store" /></a>									
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- HueyCore -->
+				<section id="HueyCore" class="two">
+					<div class="container">
+
+						<header>
+							<img class ="image featured" src="images/HueyCore-Logo.png" alt="HueyCore Logo">
+						</header>
+						
+						<p>
+							<br>
+							During my time at Huey Games, I contributed significantly to HueyCore, the studio's internal porting framework designed to streamline and automate as much of the multi-platform development process as possible. HueyCore consists of a wide array of systems, overrides, and tools built to simplify platform-specific requirements across consoles. It has been actively developed over several years, with contributions from many programmers—my own work focused on both core systems and major tooling enhancements.
+							<br>
+							One of my key responsibilities involved working on native save systems, particularly for the Xbox platform. This required deep integration with HueyCore's override architecture, where I carefully reviewed and updated override classes to ensure full coverage of all methods and properties from the base implementations. This was essential for maintaining consistent save/load functionality across console SDKs.
+							<br>
+							My two major contributions to HueyCore were the runtime optimisation tools and the developer menu. The runtime tools were initially created during the optimisation phase of Cuisineer, and later integrated into HueyCore for broader use. 
+							<br><br>These tools included:
+
+							<br>
+							<ul>
+								<li>Component Toggler – Allowed selective disabling of component types such as Rigidbody, Collider, Particle System, Mesh Renderer (skinned and static), Sprite Renderer, UI Canvas, Light, and Audio Source.</li>
+
+								<li>Camera Tool – Provided live control over camera settings like field of view, post-processing, anti-aliasing, depth textures, clipping planes, and camera rendering status.</li>
+
+								<li>Render Pipeline Tool – Exposed quality settings specific to the active render pipeline (Built-in, URP, HDRP), including shadow quality, render scale, upscaling, HDR, batching, and more.</li>
+
+								<li>General Quality Settings Tool – Enabled changes to cross-pipeline settings such as VSync, target frame rate, texture quality, LOD bias, skin weights, and real-time reflections.</li>
+
+								<li>Time Tool – Allowed adjustments to fixed timestep, max timestep, and maximum particle timestep.</li>
+
+								<li>Proximity Tool – Logged all overlapping colliders to help identify performance-heavy areas.</li>
+
+								<li>Mesh Info Tool – Reported on high-poly meshes exceeding a set triangle count to highlight optimisation opportunities.</li>
+							</ul>
+							<br>
+							The second major contribution was the Dev Menu, a runtime debug interface inspired by the PS3’s XMB menu. Designed as an all-in-one developer tool, it provided access to a range of runtime functions including: unlocking or removing achievements/trophies, triggering PlayStation activities, managing build connections, toggling DLC content, and launching runtime optimisation tools. While the menu system wasn’t fully completed before I left the company, it laid a strong foundation for future development and internal debugging workflows.
+							<br>
+							My work on HueyCore helped improve both the speed and quality of Huey’s porting process, and several of the tools I built became key components used across multiple projects.
+						</p>
+
+					</div>
+				</section>
+
+
+				<!-- Wreckout Cources -->
+				<section id="Wreckout" class="three">
+					<div class="container">
+
+						<header>
+							<video class ="image featured" controls poster="images/Wreckout.png"><source src="video/Wreckout.webm" type="video/webm"></video>
+						</header>
+
+						<p>	
+							<br>
+							Wreckout was the first project I worked on at Huey Games—a sole, sink-or-swim task that gave me full ownership and responsibility over a highly technical challenge. Initially, my role involved converting the game’s existing netcode from Photon Realtime to Photon Fusion, which went smoothly and allowed us to take advantage of improved client-host networking and performance.
+							Partway through development, after discussions with the team at Photon, the decision was made to migrate the project to Photon Quantum—a deterministic, rollback-based multiplayer engine built for competitive precision and full-state synchronization. This required a complete rewrite of the game’s codebase to fit Quantum’s deterministic Entity Component System architecture. All floating-point operations had to be converted to fixed-point math, and performance-critical logic relied on unsafe code and pointers to access simulation frame data for deterministic reads.
+							<br>
+							Most Unity MonoBehaviour components and GameObject-based structures were replaced with Quantum’s own ECS-style domain-specific language (.qtn), using structs instead of classes. Physics colliders and rigidbodies were swapped for Quantum’s deterministic equivalents, including entity and static colliders. Prefabs became Quantum entity prototypes, and scriptable objects and physics materials were rebuilt using Quantum’s custom configuration systems. Large portions of the level data—including maps and gameplay parameters—had to be baked into deterministic formats using Quantum’s tooling and configuration files.
+							<br>
+							This process gave me deep experience in deterministic game development, fixed-point systems, and the unique requirements of rollback networking. Working with Quantum also meant embracing a completely new development paradigm—more akin to low-level simulation engine development than traditional Unity workflows. Despite the steep learning curve, it was a highly rewarding challenge that significantly strengthened my skills in networking, systems architecture, and ECS-based game design.
+						</p>
+						</p> 
+							You can whishlist Wreckout and play the demo on steam by click ing the link below:
+						</p>
+						<div class="row aln-center ">
+							<div class="col-2 -1">
+								<a href="https://store.steampowered.com/app/1153650/Wreckout/" class="image fit"><img src="images/Steam_icon_logo.png" alt="Steam" /></a>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
