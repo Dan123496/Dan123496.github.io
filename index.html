@@ -1,178 +1,329 @@
-<!DOCTYPE html> <!--formats the page as HTML-->
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html dir="LTR" lang="en-GB">
 
-<html dir="LTR" lang="en-GB"> <!--sets the html document to be read from left to right and sets the language to be British English-->
+	<head>
+		<title>Daniel Standring's Portfolio</title> <!--title tag sets the title in the browser tab to "Daniel Standring's Portfolio" -->
+		<meta name="author" content="Daniel Standring"> <!--defines me as the other of the page-->
+		<meta name="Description" content="Home Page"> <!-- gives my web page a disruption-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" sizes="32x32" href="images/DSLogo.ico">
 
-<head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LC2RRHNK0G"></script>
-	<script>
- 	 window.dataLayer = window.dataLayer || [];
- 	 function gtag(){dataLayer.push(arguments);}
- 	 gtag('js', new Date());
-
-  	gtag('config', 'G-LC2RRHNK0G');
-	</script>
-	<meta charset="utf-8"> <!--Sets character encoding to “utf-8” to make sure characters are rendered properly-->
-	<meta name="Description" content="Home Page, Info and links"> <!-- gives my web page a disruption-->
-    <meta name="author" content="Daniel Standring"> <!--defines me as the other of the page-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets view point to scale of 1 and sets the width to the width of the device, is need for my website and media queries to function properly  -->
-    <title>Daniel Standring's Portfolio</title> <!--title tag sets the title in the browser tab to "Daniel Standring's Portfolio" -->
-	<link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--Links to my external stylesheet-->
-    
-
-
-</head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LC2RRHNK0G"></script>
+		
+		<script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
 	
-<body>	
-	<header> <!--creates a box to put my title header and nav bar in, allows them to but fix to the top of the page together in my css-->
-		<div class ="Title">
-			
-			<h1>Daniel Standring's Portfolio</h1> <!--h1 defines the main header of the page-->
-			<div class-="UnityBox"  style="margin-left: -3px; margin-right: -2px; margin-top: -20px;">
-				<div class="UnityCredit" frameBorder="0"  data-iframe-width="120" data-iframe-height="130" data-share-badge-id="d8f85057-1b5c-4892-9d3f-6f3af1017d39" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+	
+		gtag('config', 'G-LC2RRHNK0G');
+		</script>
+	</head>
+
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/PhotoOfMe.png" alt="" /></span>
+							<h1 id="title">Daniel Standring</h1>
+							<p>Programmer / Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#HueyGames" id="Huey-link"><span class="icon solid fa-h">Huey Games</span></a></li>
+								<li><a href="#Unity" id="Unity-link"><span class="icon brands fa-unity">Unity Personal Projects</span></a></li>
+								<li><a href="#Unreal" id="Unreal-link"><span class="icon solid fa-u">Unreal Projects & Courses</span></a></li>
+								<li><a href="#Education" id="Education-link"><span class="icon solid fa-graduation-cap">Education</span></a></li>
+
+							</ul>
+						</nav>
+
+						
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/daniel-standring-2b6028235/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://dannywtb.itch.io/" class="icon brands fa-itch-io"><span class="label">Itch.io</span></a></li>
+							<li><a href="mailto:.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							
+						</ul>
+
+				</div>
+
 			</div>
-		</div>
-		
-		
-        <nav> <!-- puts my nav list in a nav box--> 
-		   <ul> <!--creates my list for the nav bar without ordering-->
-    <!-- each one of these 5 attributes are items in my list navbar, they all have "href"'s to link to my other HTML pages and text to for the link to display as-->
-			<li><a class="CurrentPage" href="index.html">Home</a></li>
-			<li><a href="SkillsCityProjects-Unity.html">Skills City BootCamp - Unity </a></li>
-			<li><a href="PokemonGame-Unity.html">PokemonGame - Unity</a></li>
-			<li><a href="JavaGameProjects.html">Java Game Projects</a></li>
-			<li><a href="OtherUnivertyProjects.html">Other Univerty Projects</a></li>
-			
-		   </ul>
-	   </nav>
-	  </header>
-	
-    <picture class="aboutAs"> <!-- this piture tag s use to put a box around my image to help with layng out my webpage-->
-			<img src="PhotoOfMe.png" alt="Photo of Daniel Standring" > <!-- finds the image"PhotoOfMe.jpg" and gives it an alt for screen readers and if the image cant be displayed--> 
 
-    </picture>
-    
-    <aside class="aboutSu"> <!--set an aside class so i can style aside diffurently on this page-->
-			<h2>About Me</h2>   <!--sets a secondary heading-->
-			<table> <!-- starts a table-->
-				<tr> <!--starts a table row-->
-					<th>Name:</th> <!-- th sets a table heading-->
-					<td>Daniel Standring</td> <!-- td sets what you want the data under that heading to be-->
-				</tr>
-				<tr>	
-					<th>Email:</th>
-					<td>Danielstandring1<br>@gmail.com</td>
-				</tr>
-                
-                
-                <tr>
-                    
-                    <th>My Links</th>
-                    <ul>
-			             <br>
-                        <td> <br><br><li><a href="https://github.com/Dan123496">My GitHub Page</a></li>
-                       <br>
-                        <li><a href="https://www.linkedin.com/in/daniel-standring-2b6028235/">My Linkedin profile</a></li>
-                        <br>
-                        <li><a href="https://dannywtb.itch.io/">My Itch.io Dashboard</a></li></td>
-			         </ul>
-                </tr>
-				
-				
-			</table>
-    </aside>
-	<section class="aboutSe">
-		<h3>Programmer</h3>   <!--h3 set a level 3 heading-->
-            <p> Hello and welcome to my portfolio site. I am Daniel Standring, a games and software programmer and a computer science 
-				graduate with first class honours. Here you will find projects I have completed or am currently working on, Including 
-				projects from my Games Development Boot Camp. As a Unity Certified Associate Programmer I&#39;m skilled in both C# and Unity.
-				 I&#39;m currently learning Unreal Engine 5 and improving my C++ skills.</p>
-            
-	</section>
-	<section class="flex-contaner">
-		<div>
-			<video width="580" controls> 
-				<source src="Mario64.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>Learning some movement and physics mechanics with a Mario style game, using a character controller and not Unity&#39;s inbuild physics  .</p>
-			<p><a href="PokemonGame-Unity.html">Learn More</a></p>
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="PokemonGameDemoVideo31_05_22.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>Pokémon Game, a personal project I set myself to recreate Pokémon Yellow in Unity.</p>
-			<p><a href="PokemonGame-Unity.html">Learn More</a></p>
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="UnrealC++ObstacleCourse.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video> 
-			<p>Obstacle course platformer made in Unreal using C++. Made as part of GameDevTV&#39;s Unreal Course.</p>
-			<br>
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="UnrealBlueprintPhysicsGame.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video> 
-			<p>Physics based wreckage game made in Unreal, using Blueprint. Made as part of GameDevTv&#39;s Unreal Course.</p>
-			<br>
-		</div>
-		<div>
-			<picture class="flex-pic"> 
-				<img src="Gamethumbnail.png" alt="Fetching Sticks">.
-			</picture>
-			<p>Fetching Stick, interactive visual novel. Made by me and a team for the GameDev.tv 2022 Game Jam.</p>
-			<p><a href="https://kerrieholland.itch.io/fetching-sticks">Play The Game</a></p>
-			<br>	
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="slimonState2.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>Slimon State. Unity game completed as part of a client facing project for my games development bootcamp with Skills City, set by the co-development studio D3T. </p>
-			<p><a href="https://dannywtb.itch.io/slimonstate">Play The Game</a></p>
-			<br>
-			<p><a href="SkillsCityProjects-Unity.html">Learn More</a></p>
-		</div>
-		
-		<div>
-			<video width="580" controls> 
-				<source src="Catstone.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>FarmYard-Dash, WebGL game created for an intro capstone project as part of my games development bootcamp with Skills City.</p>
-			<p><a href="https://dannywtb.itch.io/farmyard-dash">Play the Game</a></p>
-			<br>
-			<p><a href="SkillsCityProjects-Unity.html#capstone">Learn More</a></p>
-		</div>
-		<div>
-			<picture class="flex-pic" > 
-				<img  src="javaGame.PNG" alt="Image of level on from my learn java game" >.
-			</picture>
-			<p>‘Learn Java’ Java educational game I developed for the final year project of my computer science degree. </p>
-			<p><a href="JavaGameProjects.html">Learn more and download the game</a></p>
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="mobileAppVideo.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>Coffee Review - mobile application, created as part of my Computer Science degree. Connects to external sever.</p>
-			<p><a href="OtherUnivertyProjects.html">Learn More</a></p>
-		</div>
-		<div>
-			<video width="580" controls> 
-				<source src="mouseClickGame.mp4" type="video/mp4">Your Browser dose not support HTML Video.
-			</video>
-			<p>My first game, created in Java using Processing.</p>
-			<p><a href="JavaGameProjects.html#proccessing">Learn More</a></p>
-		</div>
-    </section>
-	<section class="buffer"> 
+		<!-- Main -->
+			<div id="main">
 
-	</section>
-	<footer> 
-		
-		<p>Created By Daniel Standring   2022</p>
-	</footer>
-</body> 
+				<!-- Intro -->
+					<div id="video-section">
+						<div id="video-wrapper">
+							<video id="background-video" autoplay muted loop playsinline width="100%" style="opacity: 0.6;">
+								<source src="video/WebsiteVideo.mp4" type="video/mp4">
+							</video>
+							<div id="video-overlay">
+								<h1 id="video-title">Daniel Standring</h1>
+								<p id="video-subtitle">Programmer & Software Engineer</p>
+							</div>
+						</div>
+  					</div>
+
+					<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+							<br>
+
+							<p>I am Daniel Standring, a passionate programmer and software developer with over two years of experience in the gaming industry, specializing in Unity and C#. <br> <br>
+
+								During my career, I have successfully ported two PC games, PlateUp! and Cuisineer, to major console platforms, including Nintendo Switch, Xbox, and PlayStation. These projects deepened my expertise in platform-specific SDKs, development kits, and compliance requirements, allowing me to deliver optimized, high-quality experiences across diverse hardware. <br> <br>
+								
+								I have also contributed to original IP development, working on gameplay mechanics, physics systems, and multiplayer functionality using frameworks like Photon Realtime, Photon Fusion, and Photon Quantum. One of my most rewarding challenges involved rebuilding a game in Photon Quantum, where I mastered deterministic physics systems and the Entity Component System (ECS) architecture. <br> <br>
+								
+								At Huey Games, I made significant contributions to HueyCore, the company's proprietary porting software that simplifies game development for consoles. My most notable contributions included creating runtime and editor optimization tools, developing a customizable dev menu to enhance usability, and integrating native saving systems for various platforms. These tools have streamlined the optimization process for future projects, improving efficiency across the company. <br> <br>
+								
+								In addition to my professional experience, I hold a First-Class Honours Degree in Computer Science from Manchester Metropolitan University an I am a Unity Certifed Associate Programmer. I have expanded my technical expertise through Unreal Engine C++ development courses and enjoy creating personal game projects, which you can explore here on my portfolio site.
+							</p>
+
+						</div>
+					</section>
+
+				<!-- HueyGames -->
+					<section id="HueyGames" class="three">
+						<div class="container">
+
+							<header>
+								<a href="HueyGames.html"><img class ="image featured" src="images/HueyLogo.png" alt="Huey Games"></a>
+							</header>
+
+							<h2>Huey Games 2022 - 2025</h2>
+							<br><br>
+
+							<div class="row">
+								<article class="item col-6  col-12-mobile">
+									<a href="HueyGames.html#Cuisineer" class="image"><img src="images/Cuisineer.jpg" alt="Cuisineer Image" /></a>
+									<header>
+										<a href="HueyGames.html#Cuisineer"><h3>Cuisineer</h3></a>
+									</header>
+								</article>
+								<article class="item col-6  col-12-mobile">
+									<a href="HueyGames.html#Plate_Up" class="image"><img src="images/PlateUp-1920-1080.jpg" alt="PlateUp Logo" /></a>
+									<header>
+										<a href="HueyGames.html#Plate_Up"><h3>PlateUp!</h3></a>
+									</header>
+								</article>
+								<article class="item col-6  col-12-mobile">
+									<a href="HueyGames.html#Wreckout" class="image"><img src="images/Wreckout.png" alt="" /></a>
+									<header>
+										<a href="HueyGames.html#Wreckout"><h3>Wreckout</h3></a>
+									</header>
+								</article>
+								<article class="item col-6  col-12-mobile">
+									<a href="HueyGames.html#HueyCore" class="image"><img src="images/HueyCore-Logo.png" alt="HueyCore Logo" /></a>
+									<header>
+										<a href="HueyGames.html#HueyCore"><h3>HueyCore</h3></a>
+									</header>
+								</article>
+							</div>
+
+							<p><br><br>
+								Above are the projects I have worked on while at Huey Games, click on one to learn more!
+								<br><br>
+								I have had the privilege of working at Huey Games for over 2 years now, where I have gained invaluable experience and had the opportunity to contribute to a range of exciting projects. My time at Huey has been instrumental in shaping my career in the gaming industry. I've learned the intricacies of console APIs, gained hands-on experience with porting projects, and delved into the development cycle required to bring games to new platforms.
+								<br><br>
+								During these projects, I worked on improving and implementing new features into our company's porting software, HueyCore, significantly enhancing efficiency for future projects. I also contributed to an original IP, which allowed me to deepen my expertise in deterministic physics and Entity-Component Systems, strengthening my understanding of game architecture and performance.
+								<br><br>
+								Additionally, I gained extensive experience with networking code and SDKs for multiplayer games, and I developed optimization tools to streamline workflows. Collaborating with such a talented and supportive team has been an incredible experience, providing me with a strong foundation across many facets of game development. I am proud to be part of their journey in creating innovative software and impactful games.				
+							</p>
+						</div>
+					</section>
+
+				
+				<!-- Unity Personal Projects -->
+				<section id="Unity" class="four">
+					<div class="container">
+
+						<header>
+							<a href="UnityProjects.html"><img class ="image featured" src="images/unityBlack.png" alt="Unity Logo"></a>
+						</header>
+
+						<h2>Unity Personal Projects</h2>
+						<br><br>
+
+						<div class="row aln-center">
+							<article class="item col-6 col-12-mobile">
+								<video controls><source src="video/PokemonGame.mp4" type="video/mp4"> Pokemon Game made in Unity Viideo</video>
+								<header>
+									<a href="UnityProjects.html#Pokemon"><h3>Pokemon Unity Game</h3></a>
+								</header>
+							</article>
+							<article class="item col-6 col-12-mobile">
+								<video controls><source src="video/Mario64_1.mp4" type="video/mp4"> Mario 64 Game made in Unity Viideo</video>
+								<header>
+									<a href="UnityProjects.html#Mario64"><h3>Mario 64 Unity Game</h3></a>
+								</header>
+							</article>
+							<article class="item col-6 col-12-mobile">
+									<a href="UnityProjects.html#SonicAdventure2" class="image"><img src="images/SA2Logo.png" alt="Sonic Adventure Logo"></a>
+								<header>
+									<a href="UnityProjects.html#SonicAdventure2"><h3>Sonic Adventure 2 Unity Game</h3></a>
+								</header>
+							</article>						
+						</div>
+
+						<p>
+							<br><br>
+							The videos above showcase personal projects I have worked on over the years in Unity. Click on the titles below each video to learn more about each project. 
+							<br><br>
+							I started these projects to deepen my understanding of Unity and game development while also indulging in my passion for creating games. Working on these projects has allowed me to experiment with various mechanics, improve my skills, and most importantly, have fun. 
+							<br><br>
+							Since beginning my journey in game development, I've always wanted to recreate some of the iconic games from my childhood. This inspired me to develop projects based on classics like <em>Super Mario 64</em>, <em>Pokemon</em>, and <em>Sonic Adventure 2</em>. These games not only serve as a source of nostalgia but also provide me with the motivation to continue pushing forward, even when my free time is limited. Reimagining these beloved titles has been far more rewarding than working on generic projects, as they fuel my creativity and passion for game development.
+							<br><br>
+							<strong>Disclaimer:</strong> These projects are created only for educational purposes and as a demonstration of my growth and skills in game development. They are not intended for distribution or commercial use. All intellectual property rights to the original games belong to their respective owners.
+							<br><br>
+					</div>
+				</section>
+
+				<!-- Unreal Cources -->
+				<section id="Unreal" class="two">
+					<div class="container">
+
+						<header>
+							<a href="UnrealProjects.html"><img class ="image featured" src="images/UnrealLargeLogo.png" alt="Unreal Logo"></a>
+						</header>
+
+						<h2>Unreal Projects & Courses</h2>
+						<br> <br>
+
+						<div class="row aln-center">
+							<article class="item col-6 col-12-mobile">
+								<video controls><source src="video/UnrealC++ObstacleCourse.mp4" type="video/mp4">Unreal GameDevTV Cource</video>
+								<header>
+									<a href="UnrealProjects.html#UnrealCourse"><h3>Unreal GameDevTV Cource</h3></a>
+								</header>
+							</article>
+							<article class="item col-6 col-12-mobile">
+								<a href="UnrealProjects.html#C++" class="image"><img src="images/C++Course.png" alt="C++ GameDevTV Cource"></a>
+								<header>
+									<a href="UnrealProjects.html#C++"><h3>C++ GameDevTV Cource</h3></a>
+								</header>
+								</article>
+							<article class="item col-6 col-12-mobile">
+								<a href="UnrealProjects.html#UnrealMultiplayer" class="image"><img src="images/UnrealMuitiplayerCource.png" alt="Unreal GameDevTV Co-Op Game Cource"></a>
+								<header>
+									<a href="UnrealProjects.html#UnrealMultiplayer"><h3>Unreal GameDevTV Co-Op Game Cource</h3></a>
+								</header>
+							</article>						
+						</div>
+
+						<p>
+							<br><br>
+							In addition to my experience with Unity, I have started working on Unreal Engine C++ courses from GameDev.tv to broaden my expertise and enhance my skills as a programmer and software engineer in the game industry. Click on the titles below each video to learn more. 
+							<br><br>
+							By diving into Unreal Engine's powerful tools and workflows, I aim to gain a deeper understanding of game development from a new perspective, particularly through the lens of C++ programming and Unreal's unique architecture. 
+							<br><br>
+							This initiative is driven by my commitment to continuously learning and expanding my versatility as a developer. Acquiring knowledge in both Unity and Unreal Engine allows me to adapt to a wider range of projects, collaborate effectively with diverse teams, and bring greater value to the industry. Exploring Unreal Engine has been an exciting challenge, offering new opportunities to refine my problem-solving abilities and grow as a well-rounded game developer.
+							<br><br>
+					</div>
+				</section>
+
+
+				<!-- Education Cources -->
+				<section id="Education" class="three">
+					<div class="container">
+
+						<header>
+							<a href="Education.html"><img class ="image featured" src="images/EducationBanner.png" alt="Education Banner image"></a>
+						</header>
+
+						<h2>Education<br> <br></h2>
+
+						<div class="row aln-center">
+							<article class="item col-6  col-12-mobile">
+								<video controls><source src="video/slimonState2.mp4" type="video/mp4">Slimon State Video</video>
+								<header>
+									<a href="Education.html#Slimon_State"><h3>Slimon State</h3></a>
+								</header>
+							</article>
+							<article class="item col-6  col-12-mobile">
+								<video controls><source src="video/Catstone.mp4" type="video/mp4">Farmyard Dash Video</video>
+								<header>
+									<a href="Education.html#Farmyard_Dash"><h3>Farmyard Dash</h3></a>
+								</header>
+							</article>
+							<article class="item col-6  col-12-mobile">
+								<a href="Education.html#University_Final_Project" class="image"><img src="images/javaGame2.PNG" alt="" /></a>
+								<header>
+									<a href="Education.html#University_Final_Project"><h3>University Final Project</h3></a>
+								</header>
+							</article>	
+							<article class="item col-6  col-12-mobile">
+								<video controls><source src="video/mouseClickGame.mp4" type="video/mp4">University Click Game Video</video>
+								<header>
+									<a href="Education.html#University_Click_Game"><h3>University Click Game</h3></a>
+								</header>
+							</article>	
+							<article class="item col-6  col-12-mobile">
+								<video controls><source src="video/mobileAppVideo.mp4" type="video/mp4">Mobile App Video</video>
+								<header>
+									<a href="Education.html#University_Mobile_App"><h3>University Mobile App</h3></a>
+								</header>
+							</article>	
+						</div>
+
+						<p>
+							<br><br>
+							My educational journey in software development and programming has provided me with a strong foundation and valuable experiences. I graduated with First-Class Honours in Computer Science from Manchester Metropolitan University, where I developed a deep understanding of programming principles and software development. For my final-year project, I created an educational video game in Java designed to teach people the basics of programming. This project allowed me to combine my passion for game development and education while demonstrating my ability to design and implement innovative software solutions.
+							<br><br>
+							Following my degree, I completed a Unity Boot Camp at Skills City, part of the IN4Group, where I worked on a group capstone project to develop a puzzle game in Unity. This project was overseen by Phil Owen, the Lead Engineer at d3t, and provided me with valuable insights into the challenges I would face and skill I would need in the industry. At the end of the program, I successfully passed the Unity Certified Associate Programmer exam, further validating my skills in Unity development and programming.
+							<br><br>
+							The skills and knowledge gained from my education formed the foundation for the start of my career in the game industry, leading to my first job at Huey Games. This opportunity allowed me to apply my academic learning and boot camp experiences in a real-world setting, further refining my skills and expanding my professional growth.
+							<br><br>
+						</p>
+					</div>
+				</section>
+
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
